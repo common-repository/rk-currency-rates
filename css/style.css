@@ -1,0 +1,80 @@
+.batasCurrencyRate {
+	overflow-x: auto;
+}
+
+.batasCurrencyRate h4 {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+}
+
+.batasCurrencyRate h4 a {
+	color: #0E4C28;
+	text-decoration: none;
+}
+.batasCurrencyRate h4 a:hover {
+	text-decoration: none;
+}
+
+.batasCurrencyRate p {
+	font-size: 12px;
+	text-align: center;
+	text-decoration: underline;
+	color: gray;
+	margin: 5px 0 10px 0;
+}
+
+.batasCurrencyRate img {
+	vertical-align: -4px;
+}
+
+.batasCurrencyRate .red {
+	color: red;
+}
+
+.batasCurrencyRate .green {
+	color: green;
+}
+
+.batasCurrencyRate table {
+    border-collapse: collapse;
+	width: 100%;
+}
+
+.batasCurrencyRate table td, .batasCurrencyRate table th {
+    border: 1px solid #D3E0E9;
+	padding: 4px;
+	text-align: center;
+}
+
+.batasCurrencyRate table th {
+    background-color: #0E4C28;
+    color: white;
+}
+
+.batasCurrencyRate table tr:hover {
+	background-color: #f5f5f5;
+}
+
+.batasCurrencyRate table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.batasCurrencyRate .more {
+	margin-top: 5px;
+	text-align: center;
+}
+
+.icon {
+	display: inline-block;
+	width: 11px;
+	height: 12px;
+	background: url('../img/icon.png') no-repeat;
+}
+.icon.up {
+	background-position: 0 0;
+}
+.icon.down {
+	background-position: -13px 0;
+}
